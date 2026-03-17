@@ -10,7 +10,7 @@ for (let i = 1; i <= line; i++) {
 
   const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
   let sum_gcd = 0;
-  for (let g = 0; g < line; g++) {
+  for (let g = 0; g < test_case; g++) {
     for (let h = g + 1; h < test_case; h++)
       sum_gcd += gcd(new_arr[g], new_arr[h]);
   }
