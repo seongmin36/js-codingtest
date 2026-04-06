@@ -4,6 +4,7 @@
  */
 // 논리로 풀기 or ascii code로 풀기
 // A의 ascii code는 65번 -> String.fromCharCode() : 인자 number값을 ascii코드로 반환
+// result=result+A와 result=A+result의 결과값은 다르다. (위치가 다름)
 function convertToTitle(columnNumber) {
   let result = "";
 
